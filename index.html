@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 사용자 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Goole font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <title>portfolio</title>
+</head>
+
+
+<body>
+  <header id="main_header">
+    <br>
+    <br>
+  </header>
+  <!-- end header  -->
+
+  <nav id="top_nav">
+    <ul class="depth1">
+      <li>
+        <a href="#main_header">Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+      </li>
+      <li>
+        <a href="#About">About &nbsp&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+      </li>
+      <li>
+        <a href="#portfolio">portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      </li>
+      <li>
+        <a href="#contact">contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- end nav -->
+
+  <section id="visual">
+    <h1>
+      Gwak mu hyun
+    </h1>
+    <p>
+      welcome to my portfolio
+    </p>
+    <button type="button" onclick="location.href='#portfolio'">portfolio 보러가기</button>
+  </section>
+  <!-- end visual -->
+
+  <section id="About">
+    <h1>
+      About
+    </h1>
+    <img src="./images/underline1.png" alt="">
+    <article>
+      <div class="people">
+        <img class="introduce" src="./images/My.png">
+        <p>
+          <img class="line" src="./images/underline2.png" alt="">
+        </p>
+        <p style="color: #fff;">
+          곽무현 <br>
+          1999/06/28
+        </p>
+      </div>
+
+      <div class="work">
+        <img class="works" src="./images/Ability.png" alt="">
+        <p>
+          <img class="line" src="./images/underline2.png" alt="">
+        </p>
+        <p style="color: #fff;">
+          HTML5 / CSS3
+        </p>
+      </div>
+      <div class="Graduation">
+        <img class="Completion" src="./images/Completion.png" alt="">
+        <p>
+          <img class="line" src="./images/underline2.png" alt="">
+        </p>
+        <p style="color: #fff;">
+          더조은 UI UX 수료
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section id="portfolio">
+    <h1>
+      portfolio
+    </h1>
+    <img src="./images/underline1.png " alt="">
+    <div class="work1">
+      <img src="./images/작품1.png" style="opacity: 0.5;" alt="">
+      <p>
+        커피나무 홈페이지 리뉴얼
+      </p>
+      <button type="button" onclick="window.open('https://moohk99.github.io/team-project/') ">작품보러가기</button>
+     
+
+      <div class="work2">
+        <img src="./images/작품2.png" style="opacity: 0.5;" alt="">
+        <p>
+          웰트리 홈페이지
+        </p>
+        <button type="button" onclick="window.open('https://moohk99.github.io/weltree/index.html') ">작품보러가기</button>
+      </div>
+    
+      <div class="work3">
+        <a href="./images/작품3.png" data-fancybox data-caption="Caption for single image">
+          <img src="./images/작품3.png" alt="" />
+          <p>
+            Banner
+          </p>
+        </a>
+      </div>
+      
+      <div class="work4">
+        <a href="./images/작품4.png" data-fancybox data-caption="Caption for single image">
+          <img src="./images/작품4.png" alt="" />
+        </a>
+        <p>
+          Banner2
+        </p>
+      </div>
+     
+      <div class="work5">
+        <a href="./images/작품5.png" data-fancybox data-caption="Caption for single image">
+          <img src="./images/작품5.png" alt="" />
+        </a>
+        <p>
+          banner3
+        </p>
+        </div>
+      
+        <div class="work6">
+          <a href="./images/작품6.png" data-fancybox data-caption="Caption for single image">
+            <img src="./images/작품6.png" alt="" />
+          </a>
+          <p>
+            Card UI
+          </p>
+          </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>
+      contact
+    </p>
+    
+    <img src="./images/underline3.png" alt="">
+
+    <div class="Email">
+      <img src="./images/E-mail.png" alt="">
+      <a href="mailto: moohk99@naver.com">send mail</a>
+    </div>
+
+    <div class="copy">
+      <p> 
+      copyrights &copy; 2020 곽무현 all rights reserved
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

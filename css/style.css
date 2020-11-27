@@ -1,0 +1,265 @@
+/* style.css */
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  ul {list-style-type: none;}
+  a{text-decoration: none; color: #fff;}
+  body {
+    font-family: 'Noto Sans KR', sans-serif
+  }
+  #main_header {
+    background-color: #9DBCBC;
+    position: relative;
+    width: 1205px;
+    /* border: 1px solid red;  */
+    margin: 0 auto;
+  }
+
+  #top_nav {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+  }
+   
+  #top_nav > .depth1    {
+    width: 1200px;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  
+  #top_nav li {
+    float: left;
+    position: relative;
+    left: 500px;
+    color: #fff;
+  }
+  
+  #visual {
+    width: 1900px;
+    height: 599px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../images/Topbanner.png);
+    position: relative;
+    bottom: 30px;
+  }
+  
+  #visual > h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    font-weight: normal;
+    position: relative;
+    top: 150px;
+  }
+  
+  #visual > p {
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+  }
+  
+  #visual button {
+    width: 170px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+  }
+  
+  #About {
+    width: 1200px;
+    height: 496px;
+    margin: 0 auto;
+    background-color: #6B6B6B;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+  }
+  
+  #About h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  #About .introduce {
+    background: #A7A7A7;
+  }
+  
+  
+  #About .works {
+    background-color: #a7a7a7;
+  }
+  
+  #About .Completion {
+    background-color: #a7a7a7;
+  }
+  
+  #About article > div {
+    display: inline-block; 
+    vertical-align: top;
+  }
+  
+  #About article div .line {
+    display: inline-block;
+  }
+  
+  #About article .people {
+    position: relative;
+    right: 100px;
+  }
+  
+  #About article .Graduation {
+    position: relative;
+    left: 100px;
+  }
+  
+  #portfolio {
+    width: 1200px;
+    height: 960px;
+    background-color: #6487AE;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  #portfolio h1 {
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  #portfolio .work1 {
+    width: 350px;
+    position: relative;
+    right: 2px;
+  }
+  
+  #portfolio .work1 p  {
+    position: relative;
+    left: 5px;
+    bottom: 235px;
+  }
+  
+  #portfolio .work1 button  {
+    position: relative;
+    left: 20px;
+    bottom: 225px;
+  }
+  
+  #portfolio .work2 {
+    width: 350px;
+    position: relative;
+    bottom: 465px;
+    left: 400px;
+  }
+  
+  #portfolio .work2 P {
+    position: relative;
+    bottom: 233px;
+    left: 40px;
+  }
+  
+  #portfolio .work2 button {
+    position: relative;
+    bottom: 225px;
+    left: 40px;
+  }
+  
+  #portfolio .work3 {
+    width: 350px;
+    position: relative;
+    bottom: 929px;
+    left: 801px;
+    opacity: 0.7;
+  }
+
+  #portfolio .work3 p {
+    color: #000;
+    position: relative;
+    left: 50px;
+  }
+
+  
+  #portfolio .work4 {
+    position: relative;
+    bottom: 955px;
+   opacity: 0.7;
+  }
+
+  #portfolio .work4 p {
+    color: #000;
+    position: relative;
+    left: 35px;
+  }
+  
+  #portfolio .work5 {
+    position: relative;
+    bottom: 1390px;
+    left: 400px;
+   opacity: 0.7;
+  }
+
+  #portfolio .work5 p {
+    color: #000;
+    position: relative;
+    left: 35px;
+  }
+
+  
+  #portfolio .work6 {
+    position: relative;
+    bottom: 1830px;
+    left: 800px;
+    width: 400px;
+    height: 500px;
+   opacity: 0.7;
+  }
+
+  #portfolio .work5 p {
+    color: #000;
+    position: relative;
+    left: 35px;
+  }
+  
+  
+  #contact {
+    width: 1200px;
+    height: 200px;
+    background-color: #9DBCBC;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30px;
+  }
+
+  #contact img {
+    position: relative;
+    left: 516px;
+    top: 30px;
+  }
+  
+  #contact p {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: #fff;
+  }
+  
+  #contact .Email img {
+    position: relative;
+    top: 55px;
+    left: 539px;
+  }
+  
+  #contact .Email a {
+    position: relative;
+    top: 55px;
+    left: 550px;
+  }
+
+  #contact .copy {
+    position: relative;
+    top: 50px;
+  }
